@@ -1,0 +1,7 @@
+contador = 1
+numero = 4
+
+while contador <= 25:
+    resultado = numero * contador
+    print('os multiplos de 4 são:', resultado)
+    contador += 1
