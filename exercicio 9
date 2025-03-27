@@ -1,0 +1,9 @@
+inicial = int(input('escolha um numero inicial'))
+final = int(input('escolha um numero final'))
+contador = 1
+numero = 3
+
+while inicial <= final:
+    resultado = numero * inicial
+    print('os multiplos de 3 são:', resultado)
+    inicial += 1
